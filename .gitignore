@@ -1,0 +1,21 @@
+# .gitignore de DataPulse Analytics
+
+# Credenciales
+.env
+
+# Datos locales (pesan y cambian cada dia)
+*.csv
+*.xlsx
+*.parquet
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
+Thumbs.db
