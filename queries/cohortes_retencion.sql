@@ -4,3 +4,4 @@ SELECT
 FROM usuarios
 GROUP BY 1
 ORDER BY 1;
+
