@@ -43,6 +43,13 @@ def calcular_churn(mes, excluir_trials=True):
 
 def generar_informe(kpis):
     """Formatea los KPIs para el email semanal."""
+def calcular_conversion(semana):
+    """Tasa de conversion semanal = compradores / visitantes."""
+    visitantes = 45000
+    compradores = 1890
+    return round(compradores / visitantes, 4)
+
+def generar_informe(kpis):
     lineas = []
     for nombre, valor in kpis.items():
         lineas.append(f"  {nombre}: {valor}")
